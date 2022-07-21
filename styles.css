@@ -8,11 +8,18 @@
 
 }
 
-.fa-solid{
+.fa-angle-down{
     font-size:30px;
     position:absolute;
     top:95%;
     left:50%;
+}
+
+.fa-angle-up{
+    font-size:30px;
+    position:absolute;
+    top:105%;
+
 }
 
 .flex{
@@ -57,5 +64,14 @@
 }
 
 #about{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
     height:100vh;
+}
+
+.lead{
+    width:75vw;
+    text-align:center;
 }
