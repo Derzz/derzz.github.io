@@ -1,4 +1,12 @@
+
+
 .fa-brands{
+    color:black;
+    padding-left:10px;
+
+}
+
+.fa-solid{
     color:black;
     padding-left:10px;
 
@@ -6,16 +14,16 @@
 
 .fa-angle-down{
     font-size:30px;
-    position:absolute;
+    position:relative;
     top:95%;
     left:50%;
+    z-index: 1;
 }
 
 .fa-angle-up{
     font-size:30px;
-    position:absolute;
-    top:105%;
-
+    position:relative;
+    left:50%;
 }
 
 .flex{
@@ -31,6 +39,7 @@
     zoom:0.8;
     height: 95vh;
     display:flex;
+
     /*This part is important for centering*/
     row-gap:50px;
     place-items: center;
@@ -59,7 +68,16 @@
     }
 }
 
+
 #about{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+}
+
+#contact{
     display:flex;
     flex-direction:column;
     align-items:center;
