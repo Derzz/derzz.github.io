@@ -63,7 +63,7 @@
 
 #main{
     /*Green Potted Plant on White Ceramic Vase used with permission from Andreea Ch (https://www.pexels.com/@andreea-ch-371539/)*/
-    background-image: linear-gradient(rgba(255,255,255,),rgba(255,255,255,0.25)), url("/images/main.jpg");
+    background-image: linear-gradient(rgba(255,255,255, 0.25),rgba(255,255,255,0.25)), url("/images/main.jpg");
 }
 
 #about{
